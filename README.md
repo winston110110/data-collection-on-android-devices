@@ -20,5 +20,6 @@ This is an apk to collect data from sensors on android devices.
  To pull the data to the computer, the command is:
 # adb pull '/sdcard/Sensor Data Collection/default' .
  To remove the data on your android device, the command is:
+# adb shell
 # rm -rf sdcard/Sensor\ Data\ Collection   
 
